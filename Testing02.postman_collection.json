@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "20fee8c2-8df6-4f38-8910-9bcc6ec274bd",
+		"name": "FITA TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2656238"
+	},
+	"item": [
+		{
+			"name": "02",
+			"item": [
+				{
+					"name": "Get Doctors Available",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/doctors/index",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doctors",
+								"index"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
